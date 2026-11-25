@@ -76,9 +76,3 @@ UAS-01,Mapping,4,81,Aborted
 UAS-11,Inspection,27,N/A,Operational
 UAS-04,Training,15,45,Grounded
 ```
-
----
-
-## Key Takeaways
-* **Constraints Prevent Schema Drift:** Explicitly banning units (`mins`, `%`) and defining allowed category lists turns conversational LLM output into reliable, import-ready CSV data.
-* **One-Shot Examples Anchor Formatting:** Providing a single input/output pair eliminates guesswork around column order and ID normalization.
